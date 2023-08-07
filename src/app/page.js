@@ -14,7 +14,7 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
   return (
     <div className="dark:bg-gray-900">
-      <main className={` ${darkMode ? "dark" : ""} `}>
+      <main className={` ${darkMode ? "dark" : ""} dark:bg-gray-900`}>
         <section className="pb-20 dark:bg-gray-900">
           <nav className="py-10 px-10 mb-12 flex justify-between">
             <h1 className="text-xl-dosis-700 font-bold text-gray-900 dark:text-gray-200">
@@ -38,7 +38,7 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10 pb-0 pt-3">
+          <div className="text-center p-10 pb-0 pt-">
             <h2 className="text-5xl py-2 text-teal-600 font-bold md:pb-4">
               Pratham P. Sakhare
             </h2>
