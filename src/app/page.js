@@ -152,6 +152,7 @@ export default function Home() {
               Projects
             </h1>
           </div>
+          <a href="https://prathamsakhare.github.io/CryptoDataApplication/#/home" target="_blank">
           <div className="text-center shadow-lg p-5 rounded-xl mt-10  my-3">
             <h3
               className="font-bold text-gray-900 dark:text-gray-200  pb-2 text-base/10"
@@ -162,13 +163,12 @@ export default function Home() {
             <h4 className="py-4 text-teal-600">
               React | Chakra UI | REST API | React Routing | Dynamic Crypto Data
             </h4>
-            <a
-              href="https://prathamsakhare.github.io/CryptoDataApplication/#/home"
-              target="_blank"
-            >
+            
               <Image alt="4" src={Crypto} className="mx-auto" />
-            </a>
           </div>
+          </a>
+          <a href="https://prathamsakhare.github.io/Search-Engine-News/" target="_blank">
+
           <div className="text-center shadow-lg p-5 rounded-xl mt-10  my-3">
             <h3
               className="font-bold text-gray-900 dark:text-gray-200  pb-2 text-base/10"
@@ -180,13 +180,13 @@ export default function Home() {
               React | Chakra UI | REST API | React Routing | Dynamic News
               Fetching
             </h4>
-            <a
-              href="https://prathamsakhare.github.io/Search-Engine-News/"
-              target="_blank"
-            >
+            
               <Image alt="5" src={NewsApp} className="mx-auto" />
-            </a>
           </div>
+          </a>
+          <a href="https://prathamsakhare.github.io/Movie-Search/"
+              target="_blank">
+
           <div className="text-center shadow-lg p-5 rounded-xl mt-10  my-3">
             <h3
               className="text-lg text-gray-900 dark:text-gray-200 font-bold  pb-2"
@@ -198,13 +198,10 @@ export default function Home() {
               React | Chakra UI | REST API | React Routing | Dynamic News
               Fetching
             </h4>
-            <a
-              href="https://prathamsakhare.github.io/Movie-Search/"
-              target="_blank"
-            >
+            
               <Image alt="6" src={MovieSearch} className="mx-auto" />
-            </a>
           </div>
+          </a>
         </section>
       </main>
     </div>
