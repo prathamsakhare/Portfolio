@@ -62,7 +62,7 @@ export default function Home() {
             </a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden">
-            <Image src={Figma} layout="fill" objectFit="cover" />
+            <Image alt="Profile Photo" src={Figma} layout="fill" objectFit="cover" />
           </div>
         </section>
 
@@ -74,12 +74,12 @@ export default function Home() {
               Who am I?
             </h3>
             <p className="text-md py-2 leading-8 text-gray-900 dark:text-gray-200">
-              I am a web developer who've Managed and build websites for a
+              I am a web developer who have Managed and build websites for a
               company in the Educational Sector, It resulted in a{" "}
               <span className="text-teal-500">
                 30% increase in sales in 6 months
               </span>
-              . I've Assisted in the development of{" "}
+              . I have Assisted in the development of{" "}
               <span className="text-teal-500">new features</span> and{" "}
               <span className="text-teal-500">functionality</span> for web
               applications.
@@ -93,6 +93,7 @@ export default function Home() {
                 className="mx-auto"
                 width={100}
                 height={100}
+                alt="1"
               />
               <h3 className="text-lg font-medium pt-8 pb-2 text-gray-900 dark:text-gray-200">
                 JavaScript Frameworks
@@ -103,7 +104,7 @@ export default function Home() {
               <p className="text-gray-800 py-1  dark:text-gray-200">Next.Js</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={code} width={100} className="mx-auto" height={100} />
+              <Image alt="2" src={code} width={100} className="mx-auto" height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 text-gray-900 dark:text-gray-200">
                 CSS Frameworks
               </h3>
@@ -123,6 +124,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <Image
                 src={consulting}
+                alt="3"
                 width={100}
                 height={100}
                 className="mx-auto"
@@ -164,7 +166,7 @@ export default function Home() {
               href="https://prathamsakhare.github.io/CryptoDataApplication/#/home"
               target="_blank"
             >
-              <Image src={Crypto} className="mx-auto" />
+              <Image alt="4" src={Crypto} className="mx-auto" />
             </a>
           </div>
           <div className="text-center shadow-lg p-5 rounded-xl mt-10  my-3">
@@ -182,7 +184,7 @@ export default function Home() {
               href="https://prathamsakhare.github.io/Search-Engine-News/"
               target="_blank"
             >
-              <Image src={NewsApp} className="mx-auto" />
+              <Image alt="5" src={NewsApp} className="mx-auto" />
             </a>
           </div>
           <div className="text-center shadow-lg p-5 rounded-xl mt-10  my-3">
@@ -200,7 +202,7 @@ export default function Home() {
               href="https://prathamsakhare.github.io/Movie-Search/"
               target="_blank"
             >
-              <Image src={MovieSearch} className="mx-auto" />
+              <Image alt="6" src={MovieSearch} className="mx-auto" />
             </a>
           </div>
         </section>
