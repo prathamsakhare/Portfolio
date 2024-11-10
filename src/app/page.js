@@ -50,7 +50,7 @@ export default function Home() {
               Developer and Designer
             </h3>
             <p className="text-md py-5 pb-3 leading-8 text-gray-900 dark:text-gray-200">
-            🌐 Web Dev @ Applus IDIADA | 🚀 Google DSC Lead  <br></br>🔮 Designing and building innovative technologies to elevate user experience. 
+            🌐 Web Dev @ Applus+ IDIADA | 🚀 Google DSC Lead  <br></br>🔮 Designing and building innovative technologies to elevate user experience. 
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 pb-5 text-gray-900 dark:text-gray-300">
@@ -77,8 +77,8 @@ export default function Home() {
               Who am I?
             </h3>
             <p className="text-md py-2 leading-8 text-gray-900 dark:text-gray-200">
-            I am a skilled web developer with a solid foundation in freelance work for two diverse companies, paired with hands-on experience from two professional internships  <span className="text-teal-500">(The Mohh and Applus IDIADA)</span>  . Currently, I am leveraging my expertise in a web developer role at <span className="text-teal-500">
-            Applus IDIADA
+            I am a skilled web developer with a solid foundation in freelance work for two diverse companies, paired with hands-on experience from two professional internships  <span className="text-teal-500">(The Mohh and Applus+ IDIADA)</span>  . Currently, I am leveraging my expertise in a web developer role at <span className="text-teal-500">
+            Applus+ IDIADA
               </span>, where I contribute to innovative web solutions and continuously refine my technical and collaborative abilities in a dynamic environment.
               
   
@@ -125,8 +125,8 @@ export default function Home() {
               <Image
                 src={consulting}
                 alt="3"
-                width={100}
-                height={100}
+                width={150}
+                height={150}
                 className="mx-auto"
               />
               <h3 className="text-lg font-medium pt-8 pb-2 text-gray-900 dark:text-gray-200 ">
