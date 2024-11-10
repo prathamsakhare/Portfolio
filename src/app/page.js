@@ -65,7 +65,7 @@ export default function Home() {
             </a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden">
-            <Image alt="Profile Photo" src={Figma} layout="fill" objectFit="cover" />
+            <Image alt="Profile Photo" src={devEdWave} layout="fill" objectFit="cover" />
           </div>
         </section>
 
