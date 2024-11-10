@@ -6,9 +6,13 @@ import Figma from "../../public/projects/Figma.jpeg";
 import design from "../../public/design.png";
 import code from "../../public/code.png";
 import consulting from "../../public/consulting.png";
+import devEdWave from '../../public/dev-ed-wave.png'
 import Crypto from "../../public/projects/CryptoApp_6.jpg";
 import MovieSearch from "../../public/projects/MovieSearch_1.jpg";
 import NewsApp from "../../public/projects/NewsApp_3.jpg";
+import cscpms from "../../public/projects/cscpms.png"
+import TECHSAMI from "../../public/projects/TECHSAMI.png"
+import tdf from "../../public/projects/tdf.png"
 import { useState } from "react";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -30,7 +34,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r  from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                  href="https://drive.google.com/file/d/14qOdTxfPvk5UioZXoRm5YgI0C_hVLBtT/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1xNPl7FQOSi3UOzsXDyDlP3E32NoG6eGm/view?usp=sharing"
                   target="_blank"
                 >
                   Resume
@@ -46,8 +50,7 @@ export default function Home() {
               Developer and Designer
             </h3>
             <p className="text-md py-5 pb-3 leading-8 text-gray-900 dark:text-gray-200">
-              🚀 Google DSC Lead | 🌐 Full Stack Web Developer | 🔮 Crafting
-              Next-level Experiences with React.js and Next.js
+            🌐 Web Dev @ Applus IDIADA | 🚀 Google DSC Lead  <br></br>🔮 Designing and building innovative technologies to elevate user experience. 
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 pb-5 text-gray-900 dark:text-gray-300">
@@ -74,20 +77,17 @@ export default function Home() {
               Who am I?
             </h3>
             <p className="text-md py-2 leading-8 text-gray-900 dark:text-gray-200">
-              I am a web developer who have Managed and build websites for a
-              company in the Educational Sector, It resulted in a{" "}
-              <span className="text-teal-500">
-                30% increase in sales in 6 months
-              </span>
-              . I have Assisted in the development of{" "}
-              <span className="text-teal-500">new features</span> and{" "}
-              <span className="text-teal-500">functionality</span> for web
-              applications.
+            I am a skilled web developer with a solid foundation in freelance work for two diverse companies, paired with hands-on experience from two professional internships  <span className="text-teal-500">(The Mohh and Applus IDIADA)</span>  . Currently, I am leveraging my expertise in a web developer role at <span className="text-teal-500">
+            Applus IDIADA
+              </span>, where I contribute to innovative web solutions and continuously refine my technical and collaborative abilities in a dynamic environment.
+              
+  
+
             </p>
           </div>
 
-          <div className="lg:flex gap-10 ml-auto">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+          <div className="lg:flex gap-10 w-full">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 w-full">
               <Image
                 src={design}
                 className="mx-auto"
@@ -96,32 +96,32 @@ export default function Home() {
                 alt="1"
               />
               <h3 className="text-lg font-medium pt-8 pb-2 text-gray-900 dark:text-gray-200">
-                JavaScript Frameworks
+              Programming Languages
               </h3>
 
-              <h4 className="py-4 text-teal-600"> Frameworks that I use</h4>
-              <p className="text-gray-800 py-1  dark:text-gray-200">React.Js</p>
-              <p className="text-gray-800 py-1  dark:text-gray-200">Next.Js</p>
+              <h4 className="py-4 text-teal-600">Python </h4>
+              <p className="text-gray-800 py-1  dark:text-gray-200">JavaScript</p>
+              <p className="py-4 text-teal-600">SQL</p>
+              <p className="text-gray-800 py-1  dark:text-gray-200">Visual Basic</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  w-full">
               <Image alt="2" src={code} width={100} className="mx-auto" height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 text-gray-900 dark:text-gray-200">
                 CSS Frameworks
               </h3>
 
-              <h4 className="py-4 text-teal-600">Frameworks that I use</h4>
-              <p className="text-gray-800 dark:text-gray-200 py-1">
+              <p className="py-4 text-teal-600">
                 Material UI
               </p>
               <p className="text-gray-800 dark:text-gray-200 py-1">
-                Tailwind CSS
+                Chakra UI
               </p>
-              <p className="text-gray-800  dark:text-gray-200 py-1">
+              <p className="py-4 text-teal-600">
                 Bootstrap
               </p>
               <p className="text-gray-800 dark:text-gray-200 py-1">SASS</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  w-full">
               <Image
                 src={consulting}
                 alt="3"
@@ -130,16 +130,30 @@ export default function Home() {
                 className="mx-auto"
               />
               <h3 className="text-lg font-medium pt-8 pb-2 text-gray-900 dark:text-gray-200 ">
-                Backend Integration
+                Database Management
               </h3>
 
-              <h4 className="py-4 text-teal-600">
-                Technologies and Services that I use for integrating my web apps
-                with backend
-              </h4>
-              <p className="text-gray-800 dark:text-gray-200 py-1">Firebase</p>
-              <p className="text-gray-800  dark:text-gray-200 py-1">REST API</p>
+            
+              <p className="py-4 text-teal-600">MySQL</p>
               <p className="text-gray-800 dark:text-gray-200 py-1">MongoDB</p>
+              <p className="py-4 text-teal-600">IndexDB</p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  w-full">
+              <Image
+                src={devEdWave}
+                alt="3"
+                width={100}
+                height={100}
+                className="mx-auto"
+              />
+              <h3 className="text-lg font-medium pt-8 pb-2 text-gray-900 dark:text-gray-200 ">
+                Tools
+              </h3>
+
+            
+              <p className="py-4 text-teal-600">Git</p>
+              <p className="text-gray-800 dark:text-gray-200 py-1">JIRA</p>
+              <p className="py-4 text-teal-600">BitBucket</p>
             </div>
           </div>
         </section>
@@ -152,6 +166,51 @@ export default function Home() {
               Projects
             </h1>
           </div>
+          <a href="https://csc-dev-henna.vercel.app/index.html" target="_blank">
+          <div className="text-center shadow-lg p-5 rounded-xl mt-10  my-3">
+            <h3
+              className="font-bold text-gray-900 dark:text-gray-200  pb-2 text-base/10"
+              style={{ fontSize: "36px" }}
+            >
+              CSC PMS
+            </h3>
+            <h4 className="py-4 text-teal-600">
+              HTML | CSS | JavaScript | IndexDB 
+            </h4>
+            
+              <Image alt="4" src={cscpms} className="mx-auto" />
+          </div>
+          </a>
+          <a href="https://www.twodiamondfit.com" target="_blank">
+          <div className="text-center shadow-lg p-5 rounded-xl mt-10  my-3">
+            <h3
+              className="font-bold text-gray-900 dark:text-gray-200  pb-2 text-base/10"
+              style={{ fontSize: "36px" }}
+            >
+              Twodiamondfit
+            </h3>
+            <h4 className="py-4 text-teal-600">
+              Squarespace | JavaScript 
+            </h4>
+            
+              <Image alt="4" src={tdf} className="mx-auto" />
+          </div>
+          </a>
+          <a href="https://github.com/prathamsakhare/rfid-readme" target="_blank">
+          <div className="text-center shadow-lg p-5 rounded-xl mt-10  my-3">
+            <h3
+              className="font-bold text-gray-900 dark:text-gray-200  pb-2 text-base/10"
+              style={{ fontSize: "36px" }}
+            >
+              TECHSAMI
+            </h3>
+            <h4 className="py-4 text-teal-600">
+              Mongo DB | Express JS| React JS | Node JS 
+            </h4>
+            
+              <Image alt="4" src={TECHSAMI} className="mx-auto" />
+          </div>
+          </a>
           <a href="https://prathamsakhare.github.io/CryptoDataApplication/#/home" target="_blank">
           <div className="text-center shadow-lg p-5 rounded-xl mt-10  my-3">
             <h3
