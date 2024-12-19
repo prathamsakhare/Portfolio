@@ -34,10 +34,10 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r  from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1xNPl7FQOSi3UOzsXDyDlP3E32NoG6eGm/view?usp=sharing"
+                  href="mailto:prathameshsakhare192@gmail.com"
                   target="_blank"
                 >
-                  Resume
+                  Contact
                 </a>
               </li>
             </ul>
