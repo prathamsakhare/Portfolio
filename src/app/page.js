@@ -140,7 +140,7 @@ export default function Home() {
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  w-full">
               <Image
-                src={devEdWave}
+                src={code}
                 alt="3"
                 width={100}
                 height={100}
@@ -178,7 +178,8 @@ export default function Home() {
               HTML | CSS | JavaScript | IndexDB 
             </h4>
             
-              <Image alt="4" src={cscpms} className="mx-auto" />
+              {/* <Image alt="4" src={cscpms} className="mx-auto" /> */}
+              <iframe src="https://csc-dev-henna.vercel.app/" title="CSC PMS" className="mx-auto"></iframe>
           </div>
           </a>
           <a href="https://www.twodiamondfit.com" target="_blank">
@@ -194,6 +195,9 @@ export default function Home() {
             </h4>
             
               <Image alt="4" src={tdf} className="mx-auto" />
+              {/* Twodiamondfit refuses to connect for iframe tag */}
+              {/* <iframe src="https://www.twodiamondfit.com/" title="Twodiamondfit" className="mx-auto"></iframe> */}
+
           </div>
           </a>
           <a href="https://github.com/prathamsakhare/rfid-readme" target="_blank">
@@ -223,7 +227,8 @@ export default function Home() {
               React | Chakra UI | REST API | React Routing | Dynamic Crypto Data
             </h4>
             
-              <Image alt="4" src={Crypto} className="mx-auto" />
+              {/* <Image alt="4" src={Crypto} className="mx-auto" /> */}
+              <iframe src="https://prathamsakhare.github.io/CryptoDataApplication/#/home" title="Crypto Data App" className="mx-auto"></iframe>
           </div>
           </a>
           <a href="https://prathamsakhare.github.io/Search-Engine-News/" target="_blank">
@@ -258,7 +263,8 @@ export default function Home() {
               Fetching
             </h4>
             
-              <Image alt="6" src={MovieSearch} className="mx-auto" />
+              {/* <Image alt="6" src={MovieSearch} className="mx-auto" /> */}
+              <iframe src="https://prathamsakhare.github.io/Movie-Search/" title="Movie Search" className="mx-auto"></iframe>
           </div>
           </a>
         </section>

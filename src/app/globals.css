@@ -34,3 +34,8 @@ body {
 .framework-container{
   width: 30%;
 }
+
+iframe{
+  width: 98%;
+  height: 88vh;
+}
